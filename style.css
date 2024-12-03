@@ -1,0 +1,27 @@
+@font-face { 
+    font-family: 'Spitzkant Head Light';
+    src: url('/assets/fonts/spitzkant-head-light.woff2') format('woff2'),
+         url('/assets/fonts/spitzkant-head-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Spitzkant Head Light', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #322d29; 
+    text-align: center;
+    color: #efe9e1; 
+    margin-top: -10px; 
+}
+
+.navbar h1 {
+    font-size: 36px; /* Tamanho da fonte */
+    margin: 0;
+    padding: 10px;
+}
